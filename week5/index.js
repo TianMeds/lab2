@@ -37,6 +37,8 @@ navClose.addEventListener("click", () => {
 
 // Colors
 
+const widget = document.querySelector(".widget");
+const control = document.querySelector(".control");
 
 widget.addEventListener("click", () => {
   control.classList.toggle("open");
