@@ -17,18 +17,9 @@ navOpen.addEventListener("click", () => {
   }
 });
 
-navClose.addEventListener("click", () => {
-  if (navLeft < 0) {
-    menu.classList.remove("show");
-    document.body.classList.remove("show");
-    navBar.classList.remove("show");
-  }
-});
 
 // Colors
 
-const widget = document.querySelector(".widget");
-const control = document.querySelector(".control");
 
 widget.addEventListener("click", () => {
   control.classList.toggle("open");
@@ -37,14 +28,6 @@ widget.addEventListener("click", () => {
 const colors = [...document.querySelectorAll(".colors span")];
 document.querySelector(":root").style.setProperty("--customColor", "#0044ff");
 
-colors.forEach((color) => {
-  color.addEventListener("click", () => {
-    const currentColor = color.dataset.id;
-    document
-      .querySelector(":root")
-      .style.setProperty("--customColor", currentColor);
-  });
-});
 
 window.addEventListener("scroll", () => {
   control.classList.remove("open");
@@ -54,25 +37,6 @@ window.addEventListener("scroll", () => {
 
 const glide = document.querySelector(".glide");
 
-if (glide)
-  new Glide(glide, {
-    type: "carousel",
-    startAt: 0,
-    perView: 3,
-    gap: 30,
-    hoverpause: true,
-    autoplay: 2000,
-    animationDuration: 800,
-    animationTimingFunc: "linear",
-    breakpoints: {
-      996: {
-        perView: 2,
-      },
-      768: {
-        perView: 1,
-      },
-    },
-  }).mount();
 
 AOS.init();
 
