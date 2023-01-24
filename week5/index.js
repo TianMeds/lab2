@@ -47,6 +47,16 @@ widget.addEventListener("click", () => {
 const colors = [...document.querySelectorAll(".colors span")];
 document.querySelector(":root").style.setProperty("--customColor", "#0044ff");
 
+colors.forEach((color) => {
+  color.addEventListener("click", () => {
+    const currentColor = color.dataset.id;
+    document
+      .querySelector(":root")
+      .style.setProperty("--customColor", currentColor);
+  });
+});
+
+
 
 window.addEventListener("scroll", () => {
   control.classList.remove("open");
