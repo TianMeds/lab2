@@ -26,6 +26,14 @@ navOpen.addEventListener("click", () => {
   }
 });
 
+navClose.addEventListener("click", () => {
+  if (navLeft < 0) {
+    menu.classList.remove("show");
+    document.body.classList.remove("show");
+    navBar.classList.remove("show");
+  }
+});
+
 
 // Colors
 
