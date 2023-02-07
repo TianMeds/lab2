@@ -3,10 +3,10 @@
 <body>
 
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "portfoliomessage";
+    $host = "localhost";
+    $username = "webprogmi211";
+    $password = "webprogmi211";
+    $dbname = "webprogmi211";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
