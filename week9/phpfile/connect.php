@@ -10,9 +10,9 @@ if (!empty($fullname)){
       if(!empty($messages)){
 
         $host = "localhost";
-        $dbusername = "root";
-        $dbpassword = "";
-        $dbname = "portfolioform";
+        $dbusername = "webprogmi211";
+        $dbpassword = "webprogmi211";
+        $dbname = "webprogmi211";
         // Create connection
         $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
 
