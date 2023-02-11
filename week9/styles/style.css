@@ -358,7 +358,7 @@ ul{
       top: 0;
       left: 0;
       display: block;
-      background-image: url("/img/Cursor.png");
+      background-image: url("./img/Cursor.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -374,7 +374,7 @@ ul{
       top: 0;
       left: 0;
       display: block;
-      background-image: url("/img/Cursors.png");
+      background-image: url("./img/Cursors.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
