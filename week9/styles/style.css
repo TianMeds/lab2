@@ -1100,7 +1100,7 @@ select:invalid{
       
       .cert::after,.project1::after, .project2::after, .project3::after, .project4::after, 
       .project5::after, .project6::after, .project7::after, .project8::after, 
-      .project9::after,.project10::after, .project11::after{
+      .project9::after,.project10::after, .project11::after, .project12::after{
             display: none;
       }
       .project {
@@ -1154,7 +1154,8 @@ select:invalid{
       .project8:hover,
       .project9:hover,
       .project10:hover,
-      .project11:hover{
+      .project11:hover,
+      .project12:hover{
       transform: scale(1);
       }
       .cursor{
@@ -1218,7 +1219,8 @@ select:invalid{
       .project8,
       .project9,
       .project10,
-      .project11{
+      .project11,
+      .project12{
             filter: grayscale(0);
       }
       .box{
