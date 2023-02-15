@@ -9,12 +9,12 @@ if (!empty($fullname)){
     if(!empty($service)){
       if(!empty($messages)){
 
-        $servername = "192.168.150.213";
+        $host = "localhost";
         $username = "webprogmi211";
         $password = "j@zzyAngle30";
         $dbname = "webprogmi211";
         // Create connection
-        $conn = new mysqli ($servername, $dbusername, $dbpassword, $dbname);
+        $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
 
         if (mysqli_connect_error()){
           die('Connect Error ('. mysqli_connect_errno() .') '
