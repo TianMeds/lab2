@@ -14,7 +14,7 @@ if (!empty($fullname)){
         $password = "j@zzyAngle30";
         $dbname = "webprogmi211";
         // Create connection
-        $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
+        $conn = new mysqli ($servername, $dbusername, $dbpassword, $dbname);
 
         if (mysqli_connect_error()){
           die('Connect Error ('. mysqli_connect_errno() .') '
