@@ -206,7 +206,7 @@ if (!empty($fullname)){
           . mysqli_connect_error());
           }
           else{
-          $sql = "INSERT INTO messages (fullname, email, services, messages)
+          $sql = "INSERT INTO cbmedallada_MyGuests (fullname, email, services, messages)
           values ('$fullname','$email','$service','$messages')";
           if ($conn->query($sql)){
           echo "New record is inserted sucessfully";
