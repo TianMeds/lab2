@@ -9,7 +9,7 @@ if (!empty($fullname)){
     if(!empty($service)){
       if(!empty($messages)){
 
-        $host = "localhost";
+        $host = "192.168.150.213";
         $username = "webprogmi211";
         $password = "j@zzyAngle30";
         $dbname = "webprogmi211";
