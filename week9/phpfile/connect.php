@@ -9,9 +9,9 @@ if (!empty($fullname)){
     if(!empty($service)){
       if(!empty($messages)){
 
-        $host = "localhost";
-        $dbusername = "webprogmi211";
-        $dbpassword = "webprogmi211";
+        $servername = "192.168.150.213";
+        $username = "webprogmi211";
+        $password = "j@zzyAngle30";
         $dbname = "webprogmi211";
         // Create connection
         $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
